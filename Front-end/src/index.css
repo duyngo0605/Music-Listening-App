@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: Inter;
+}
+
+body {
+  display: flex;
+  justify-content: end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  top: 82px;
+  left: 0;
+  background-color: white;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
